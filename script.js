@@ -172,7 +172,8 @@ function iniciarJogo(){
         cria_cookie('highscore', `${points}`);
         console.log('highscore: ' + highscore);
         document.getElementById('highscore').innerHTML = highscore;
-        document.getElementById('highscore').style.color = '#fccf03'
+        document.getElementById('highscore').style.color = '#fccf03';
+        document.getElementById('title').innerHTML = "NEW HIGHSCORE!!"
     }
 
     let newHead = {
